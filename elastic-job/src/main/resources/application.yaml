@@ -1,0 +1,7 @@
+elastic-job:
+  servers: 120.78.215.216:2181
+  namespace: elsatic-job-test
+  jobs: {
+    'com.river.job.PrintJob': '0/5 * * * * ?',
+    'com.river.job.PrintJob2': '0/5 * * * * ?'
+  }
