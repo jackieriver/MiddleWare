@@ -12,6 +12,7 @@
         <module>rabbitmq-spring</module>
         <module>zookeeper-play</module>
         <module>elastic-job</module>
+        <module>sharding-jdbc</module>
     </modules>
 
     <parent>
